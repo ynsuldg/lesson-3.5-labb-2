@@ -23,7 +23,7 @@ class ATMServiceTest {
     @InjectMocks
     private ATMService service;
 
-    // ---------- DEPOSIT (ERROR FLOW) ----------
+    // ----------- DEPOSIT (ERROR FLOW) -----------
 
     @Test
     void depositInvalidAmountThrowsException() {
