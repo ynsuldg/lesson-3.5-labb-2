@@ -1,14 +1,14 @@
-package se.iths.yunus.unittesting.component;
+package se.iths.yunus.unittesting.service;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import se.iths.yunus.unittesting.component.AccountComponent;
 import se.iths.yunus.unittesting.exception.InsufficientFundsException;
 import se.iths.yunus.unittesting.exception.InvalidAmountException;
 import se.iths.yunus.unittesting.exception.MaxWithdrawalExceededException;
-import se.iths.yunus.unittesting.service.ATMService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
