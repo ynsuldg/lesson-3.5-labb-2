@@ -1,4 +1,4 @@
-package se.iths.yunus.unittesting.service;
+package se.iths.yunus.unittesting;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
